@@ -2,7 +2,7 @@ import GetProductsController from "../controllers/products/getProducts";
 import productsRepository from "../repository/productsRepository";
 
 
-describe('Products', () => {
+describe('Get products', () => {
   it('should return a Promise with an array of products', async () => {
     const products = await productsRepository.findAll();
 
